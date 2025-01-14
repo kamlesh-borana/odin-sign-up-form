@@ -124,6 +124,11 @@ textarea {
     outline: none;
 }
 
+.form-container input:invalid {
+    border: 1px solid red;
+    box-shadow: none;
+}
+
 .form-footer {
     padding: 36px 72px;
 }
